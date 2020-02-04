@@ -1,0 +1,32 @@
+
+body{
+	background: pink;
+}
+header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #000;
+	align-items: center;
+	border: 9px solid #804040;
+	box-shadow: 1px 10px 10px #400080;
+	border-radius: 10px 10px;
+}
+
+
+
+nav ul li{
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+}
+
+nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #c0c0c0;
+	margin: 10px;
+}
+
